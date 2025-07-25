@@ -36,8 +36,27 @@
                 <a href="#">News</a>
                 <a href="#" class="cc-campaign-btn">CC Campaign</a>
             </div>
+         <!-- Hamburger Menu -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
+
+     <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="about.html">About</a>
+        <a href="">Program</a>
+        <a href="join.html">Join</a>
+        <a href="#">Sponsor</a>
+        <a href="#">News</a>
+        <a href="#" class="cc-campaign-btn">CC Campaign</a>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
 
     <main class="main">
         <!-- Background decorative circles -->
@@ -235,70 +254,88 @@
         <button class="program-btn">VIEW FULL PROGRAM</button>
     </div>
 </section>
-<section class="featured-speakers">
+<div class="featured-speakers">
         <h2 class="section-title">Featured Speakers</h2>
-        
         <div class="speakers-grid">
+            <!-- Yochai Benkler -->
             <div class="speaker-card">
-                
-                <img src="images/02-2.jpg" alt="Lila Tretikov" />
-                <div class="speaker-info">
+                <div class="speaker-image">
+                    <!-- Image placeholder - replace with actual image src -->
+                     <img src="images/01.jpg" alt="Lila Tretikov" />
+                </div>
+                <div class="speaker-content">
                     <h3 class="speaker-name">Yochai Benkler</h3>
                     <p class="speaker-title">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
                     <p class="speaker-description">Benkler studies commons-based peer production, and published his seminal book "The Wealth of Networks" in 2006.</p>
                 </div>
             </div>
-            
+
+            <!-- Kilnam Chon -->
             <div class="speaker-card">
-                
-                <img src="images/author.png" alt="Lila Tretikov" />
-                <div class="speaker-info">
+                <div class="speaker-image">
+                    <!-- Image placeholder - replace with actual image src -->
+                     <img src="images/03-1.jpg" alt="Lila Tretikov" />
+                </div>
+                <div class="speaker-content">
                     <h3 class="speaker-name">Kilnam Chon</h3>
-                    <p class="speaker-title"></p>
+                    <p class="speaker-title">Internet Pioneer</p>
                     <p class="speaker-description">Kilnam Chon helped bring the Internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012, he was inducted into the inaugural class of the Internet Society's (ISOC) Internet Hall of Fame.</p>
                 </div>
             </div>
-            
+
+            <!-- SohYeong Noh -->
             <div class="speaker-card">
-                
-                <img src="images/03-1.jpg" alt="Lila Tretikov" />
-                <div class="speaker-info">
+                <div class="speaker-image">
+                    <!-- Image placeholder - replace with actual image src -->
+                     <img src="images/author.png" alt="Lila Tretikov" />
+                </div>
+                <div class="speaker-content">
                     <h3 class="speaker-name">SohYeong Noh</h3>
-                    <p class="speaker-title">Director at Art Centre Nabi and a board member of ...</p>
+                    <p class="speaker-title">Director at Art Center Nabi and a board member of CC</p>
                     <p class="speaker-description">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science, technology, humanities, and the arts.</p>
                 </div>
             </div>
-            
+
+            <!-- Julia Leda -->
             <div class="speaker-card">
-                
-                 <img src="images/02-2.jpg" alt="Lila Tretikov" />
-                <div class="speaker-info">
-                    <h3 class="speaker-name">Julia Reda</h3>
+                <div class="speaker-image">
+                    <!-- Image placeholder - replace with actual image src -->
+                     <img src="images/01-3.jpg" alt="Lila Tretikov" />
+                </div>
+                <div class="speaker-content">
+                    <h3 class="speaker-name">Julia Leda</h3>
                     <p class="speaker-title">President of Young Pirates of Europe</p>
-                    <p class="speaker-description">European organization, political democracy and participation of youth through online and other major content. Reda's report outlining potential changes to EU copyright law was accepted by the Parliament in July.</p>
+                    <p class="speaker-description">European organisation, political democracy and participation of youth through online and other major concern. Leda's report outlining potential changes to EU copyright law was accepted by the Parliament in July.</p>
                 </div>
             </div>
-            
+
+            <!-- Lila Tretikov -->
             <div class="speaker-card">
-                
-                <img src="images/01.jpg" alt="Lila Tretikov" />
-                <div class="speaker-info">
+                <div class="speaker-image">
+                    <!-- Image placeholder - replace with actual image src -->
+                     <img src="images/01.jpg" alt="Lila Tretikov" />
+                </div>
+                <div class="speaker-content">
                     <h3 class="speaker-name">Lila Tretikov</h3>
                     <p class="speaker-title">Executive Director of the Wikimedia Foundation</p>
-                    <p class="speaker-description">Lila Tretikov is the Executive Director of the Wikimedia Foundation, the non-profit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month.</p>
+                    <p class="speaker-description">Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month.</p>
                 </div>
             </div>
-            
+
+            <!-- Ryan Merkley -->
             <div class="speaker-card">
-                
-                <img src="images/01-3.jpg" alt="Lila Tretikov" />
-                <div class="speaker-info">
+                <div class="speaker-image">
+                    <img src="images/02-2.jpg" alt="Lila Tretikov" />
+                    <!-- Image placeholder - replace with actual image src -->
+                </div>
+                <div class="speaker-content">
                     <h3 class="speaker-name">Ryan Merkley</h3>
                     <p class="speaker-title">CEO of Creative Commons, ex-COO of the Mozilla Foundation</p>
-                    <p class="speaker-description">Ryan had been leading open source projects at the Mozilla Foundation such as the open source movement.</p>
+                    <p class="speaker-description">Ryan has been leading open source projects at the Mozilla Foundation such as the open source movement.</p>
                 </div>
             </div>
         </div>
+    </div>
     </section>
  <section class="partner-section">
         <h2 class="partner-title">Partner</h2>
@@ -324,5 +361,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
