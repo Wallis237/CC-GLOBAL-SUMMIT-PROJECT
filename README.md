@@ -14,7 +14,7 @@ A responsive web application for a web development bootcamp built as part of the
 ### Screenshot 3
 ![Screenshot 3](Screenshot%203.png)
 ### Mobile Version
-![Mobile Screenshot](projectImage.JPG)
+![Mobile Screenshot](Screenshot%204.png)
 
 ## 🌟 Features
 
