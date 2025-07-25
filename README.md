@@ -5,9 +5,9 @@ A responsive web application for a web development bootcamp built as part of the
 ## 📸 Screenshots
 
 ### Desktop Version
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
-![Screenshot 3](screenshot3.png)
+![Screenshot 1](screenshot 1.png)
+![Screenshot 2](screenshot 2.png)
+![Screenshot 3](screenshot 3.png)
 ### Mobile Version
 ![Mobile Screenshot](projectImage.JPG)
 
